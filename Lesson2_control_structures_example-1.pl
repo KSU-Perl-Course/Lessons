@@ -5,9 +5,6 @@
 #
 # Examples if control structure
 
-use strict;
-
-my $gene_name = 'p53';
 
 if ($gene_name eq 'p53') #If this is an oncogene
 {
