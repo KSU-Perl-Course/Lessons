@@ -5,11 +5,14 @@
 #
 # Examples if control structure
 
+<<<<<<< HEAD
 use strict;
 
 #SANDRA WAS WRONG HERE DO THIS INSTEAD
 
 my $gene_name = 'p53';
+=======
+>>>>>>> 5f45657659993ad31105f9f5d53b56d5627dbb3e
 
 if ($gene_name eq 'p53') #If this is an oncogene
 {
