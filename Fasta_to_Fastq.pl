@@ -25,6 +25,7 @@ while(<OLDFASTA>)
             ($identifier, $description)=split(' '); #split fasta header into two variables
             print NEWFASTA "$identifier\n"; #print '>' and identifier
         }
+    #would be better if line 29 read elsif and then the rest of this loop
     if($i==1) #loop for sequence
         {
             print NEWFASTA; #print sequence
